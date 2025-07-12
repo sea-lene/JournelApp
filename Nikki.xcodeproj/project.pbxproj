@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		55CE3D422D9E16C80057EDBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55CE3D202D9E16C60057EDBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55CE3D272D9E16C60057EDBF;
+			remoteInfo = Nikki;
+		};
+		55CE3D4C2D9E16C80057EDBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55CE3D202D9E16C60057EDBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55CE3D272D9E16C60057EDBF;
+			remoteInfo = Nikki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55CE3D282D9E16C60057EDBF /* Nikki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nikki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55CE3D412D9E16C80057EDBF /* NikkiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikkiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55CE3D4B2D9E16C80057EDBF /* NikkiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikkiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		55C0AAEB2DA35CE000E5570A /* Exceptions for "Nikki" folder in "NikkiTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Core/Extensions/UIColor+Hex.swift",
+				"Core/Extensions/UIImageView+Ext.swift",
+				"Core/Extensions/UIView+Shadow.swift",
+				Core/Helpers/BoardManager.swift,
+				Core/Helpers/MyAppColors.swift,
+				Core/Helpers/Reusable.swift,
+				Core/Resources/AppTheme.swift,
+				Features/Boards/Controllers/BoardDetailViewController.swift,
+				Features/Boards/Controllers/BoardListViewController.swift,
+				Features/Boards/Controllers/BoardsViewController.swift,
+				Features/Boards/Models/BoardListViewModel.swift,
+				Features/Boards/Views/BoardCanvasView.swift,
+				Features/Boards/Views/BoardDrawingView.swift,
+				Features/Boards/Views/BoardImageItemView.swift,
+				Features/Boards/Views/BoardTextView.swift,
+				Features/Boards/Views/BoardTodoItemView.swift,
+				Features/Boards/Views/BoardVideoItemView.swift,
+				Features/Boards/Views/DraggableResizableImageView.swift,
+				Features/Boards/Views/Stickers/StickerCell.swift,
+				Features/Boards/Views/Stickers/StickerSearchViewController.swift,
+				Features/Boards/Views/ToolBox/ToolboxButton.swift,
+				Features/Boards/Views/ToolBox/ToolboxMenuView.swift,
+				Features/Home/BoardCell.swift,
+				Features/Home/HomeViewController.swift,
+				Features/Shared/DraggableView.swift,
+			);
+			target = 55CE3D402D9E16C80057EDBF /* NikkiTests */;
+		};
+		55C0AAEC2DA35CE000E5570A /* Exceptions for "Nikki" folder in "NikkiUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Core/Extensions/UIColor+Hex.swift",
+				"Core/Extensions/UIImageView+Ext.swift",
+				"Core/Extensions/UIView+Shadow.swift",
+				Core/Helpers/BoardManager.swift,
+				Core/Helpers/MyAppColors.swift,
+				Core/Helpers/Reusable.swift,
+				Core/Resources/AppTheme.swift,
+				Features/Boards/Controllers/BoardDetailViewController.swift,
+				Features/Boards/Controllers/BoardListViewController.swift,
+				Features/Boards/Controllers/BoardsViewController.swift,
+				Features/Boards/Models/BoardListViewModel.swift,
+				Features/Boards/Views/BoardCanvasView.swift,
+				Features/Boards/Views/BoardDrawingView.swift,
+				Features/Boards/Views/BoardImageItemView.swift,
+				Features/Boards/Views/BoardTextView.swift,
+				Features/Boards/Views/BoardTodoItemView.swift,
+				Features/Boards/Views/BoardVideoItemView.swift,
+				Features/Boards/Views/DraggableResizableImageView.swift,
+				Features/Boards/Views/Stickers/StickerCell.swift,
+				Features/Boards/Views/Stickers/StickerSearchViewController.swift,
+				Features/Boards/Views/ToolBox/ToolboxButton.swift,
+				Features/Boards/Views/ToolBox/ToolboxMenuView.swift,
+				Features/Home/BoardCell.swift,
+				Features/Home/HomeViewController.swift,
+				Features/Shared/DraggableView.swift,
+			);
+			target = 55CE3D4A2D9E16C80057EDBF /* NikkiUITests */;
+		};
+		55CE3D532D9E16C80057EDBF /* Exceptions for "Nikki" folder in "Nikki" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 55CE3D272D9E16C60057EDBF /* Nikki */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		55CE3D2A2D9E16C60057EDBF /* Nikki */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				55CE3D532D9E16C80057EDBF /* Exceptions for "Nikki" folder in "Nikki" target */,
+				55C0AAEB2DA35CE000E5570A /* Exceptions for "Nikki" folder in "NikkiTests" target */,
+				55C0AAEC2DA35CE000E5570A /* Exceptions for "Nikki" folder in "NikkiUITests" target */,
+			);
+			path = Nikki;
+			sourceTree = "<group>";
+		};
+		55CE3D442D9E16C80057EDBF /* NikkiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NikkiTests;
+			sourceTree = "<group>";
+		};
+		55CE3D4E2D9E16C80057EDBF /* NikkiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NikkiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55CE3D252D9E16C60057EDBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CE3D3E2D9E16C80057EDBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CE3D482D9E16C80057EDBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55CE3D1F2D9E16C60057EDBF = {
+			isa = PBXGroup;
+			children = (
+				55CE3D2A2D9E16C60057EDBF /* Nikki */,
+				55CE3D442D9E16C80057EDBF /* NikkiTests */,
+				55CE3D4E2D9E16C80057EDBF /* NikkiUITests */,
+				55CE3D292D9E16C60057EDBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55CE3D292D9E16C60057EDBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55CE3D282D9E16C60057EDBF /* Nikki.app */,
+				55CE3D412D9E16C80057EDBF /* NikkiTests.xctest */,
+				55CE3D4B2D9E16C80057EDBF /* NikkiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55CE3D272D9E16C60057EDBF /* Nikki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55CE3D542D9E16C80057EDBF /* Build configuration list for PBXNativeTarget "Nikki" */;
+			buildPhases = (
+				55CE3D242D9E16C60057EDBF /* Sources */,
+				55CE3D252D9E16C60057EDBF /* Frameworks */,
+				55CE3D262D9E16C60057EDBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				55CE3D2A2D9E16C60057EDBF /* Nikki */,
+			);
+			name = Nikki;
+			packageProductDependencies = (
+			);
+			productName = Nikki;
+			productReference = 55CE3D282D9E16C60057EDBF /* Nikki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55CE3D402D9E16C80057EDBF /* NikkiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55CE3D592D9E16C80057EDBF /* Build configuration list for PBXNativeTarget "NikkiTests" */;
+			buildPhases = (
+				55CE3D3D2D9E16C80057EDBF /* Sources */,
+				55CE3D3E2D9E16C80057EDBF /* Frameworks */,
+				55CE3D3F2D9E16C80057EDBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55CE3D432D9E16C80057EDBF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				55CE3D442D9E16C80057EDBF /* NikkiTests */,
+			);
+			name = NikkiTests;
+			packageProductDependencies = (
+			);
+			productName = NikkiTests;
+			productReference = 55CE3D412D9E16C80057EDBF /* NikkiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55CE3D4A2D9E16C80057EDBF /* NikkiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55CE3D5C2D9E16C80057EDBF /* Build configuration list for PBXNativeTarget "NikkiUITests" */;
+			buildPhases = (
+				55CE3D472D9E16C80057EDBF /* Sources */,
+				55CE3D482D9E16C80057EDBF /* Frameworks */,
+				55CE3D492D9E16C80057EDBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55CE3D4D2D9E16C80057EDBF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				55CE3D4E2D9E16C80057EDBF /* NikkiUITests */,
+			);
+			name = NikkiUITests;
+			packageProductDependencies = (
+			);
+			productName = NikkiUITests;
+			productReference = 55CE3D4B2D9E16C80057EDBF /* NikkiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55CE3D202D9E16C60057EDBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					55CE3D272D9E16C60057EDBF = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					55CE3D402D9E16C80057EDBF = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 55CE3D272D9E16C60057EDBF;
+					};
+					55CE3D4A2D9E16C80057EDBF = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 55CE3D272D9E16C60057EDBF;
+					};
+				};
+			};
+			buildConfigurationList = 55CE3D232D9E16C60057EDBF /* Build configuration list for PBXProject "Nikki" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55CE3D1F2D9E16C60057EDBF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 55CE3D292D9E16C60057EDBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55CE3D272D9E16C60057EDBF /* Nikki */,
+				55CE3D402D9E16C80057EDBF /* NikkiTests */,
+				55CE3D4A2D9E16C80057EDBF /* NikkiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55CE3D262D9E16C60057EDBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CE3D3F2D9E16C80057EDBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CE3D492D9E16C80057EDBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55CE3D242D9E16C60057EDBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CE3D3D2D9E16C80057EDBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55CE3D472D9E16C80057EDBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55CE3D432D9E16C80057EDBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55CE3D272D9E16C60057EDBF /* Nikki */;
+			targetProxy = 55CE3D422D9E16C80057EDBF /* PBXContainerItemProxy */;
+		};
+		55CE3D4D2D9E16C80057EDBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55CE3D272D9E16C60057EDBF /* Nikki */;
+			targetProxy = 55CE3D4C2D9E16C80057EDBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		55CE3D552D9E16C80057EDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nikki/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to let you choose a video.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.journal.Nikki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55CE3D562D9E16C80057EDBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nikki/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to let you choose a video.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.journal.Nikki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55CE3D572D9E16C80057EDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55CE3D582D9E16C80057EDBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55CE3D5A2D9E16C80057EDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.journal.NikkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nikki.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nikki";
+			};
+			name = Debug;
+		};
+		55CE3D5B2D9E16C80057EDBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.journal.NikkiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nikki.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nikki";
+			};
+			name = Release;
+		};
+		55CE3D5D2D9E16C80057EDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.journal.NikkiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nikki;
+			};
+			name = Debug;
+		};
+		55CE3D5E2D9E16C80057EDBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.journal.NikkiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nikki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55CE3D232D9E16C60057EDBF /* Build configuration list for PBXProject "Nikki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CE3D572D9E16C80057EDBF /* Debug */,
+				55CE3D582D9E16C80057EDBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55CE3D542D9E16C80057EDBF /* Build configuration list for PBXNativeTarget "Nikki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CE3D552D9E16C80057EDBF /* Debug */,
+				55CE3D562D9E16C80057EDBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55CE3D592D9E16C80057EDBF /* Build configuration list for PBXNativeTarget "NikkiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CE3D5A2D9E16C80057EDBF /* Debug */,
+				55CE3D5B2D9E16C80057EDBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55CE3D5C2D9E16C80057EDBF /* Build configuration list for PBXNativeTarget "NikkiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55CE3D5D2D9E16C80057EDBF /* Debug */,
+				55CE3D5E2D9E16C80057EDBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55CE3D202D9E16C60057EDBF /* Project object */;
+}
